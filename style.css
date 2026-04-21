@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(2px);
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.blob-one {
+  width: 220px;
+  height: 220px;
+  top: -40px;
+  right: 7%;
+  background: #67e8f9;
+  animation: driftA 10s ease-in-out infinite;
+}
+
+.blob-two {
+  width: 170px;
+  height: 170px;
+  bottom: 15px;
+  left: 4%;
+  background: #bae6fd;
+  animation: driftB 12s ease-in-out infinite;
+}
+
+.brand-mark {
+  box-shadow: 0 8px 20px rgba(6, 182, 212, 0.35);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+  will-change: opacity, transform;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.float-soft {
+  animation: floatSoft 4.5s ease-in-out infinite;
+}
+
+.wa-float {
+  animation: pulseSoft 2.6s ease-in-out infinite;
+}
+
+.mobile-cta {
+  box-shadow: 0 -10px 25px rgba(15, 23, 42, 0.08);
+}
+
+#testimonial-track {
+  will-change: transform;
+}
+
+#testimonial-dots button {
+  transition: all 0.3s ease;
+}
+
+.image-card img {
+  transition: transform 0.5s ease;
+}
+
+.image-card svg {
+  transition: transform 0.5s ease;
+}
+
+.image-card:hover img,
+.image-card:hover svg {
+  transform: scale(1.06);
+}
+
+.card-soft {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card-soft:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(2, 132, 199, 0.12);
+}
+
+@keyframes floatSoft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes pulseSoft {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+@keyframes driftA {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-14px, 10px);
+  }
+}
+
+@keyframes driftB {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10px, -12px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blob,
+  .reveal,
+  .float-soft,
+  .wa-float {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

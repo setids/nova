@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>drg. Novalia Syafira Arfianti | Praktek Mandiri Dokter Gigi</title>
+    <meta
+      name="description"
+      content="Landing page praktek mandiri dokter gigi drg. Novalia Syafira Arfianti dengan layanan perawatan gigi modern, nyaman, dan profesional."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased">
+    <header class="sticky top-0 z-50 border-b border-slate-100 bg-white/90 backdrop-blur">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="#home" class="flex items-center gap-3">
+          <span class="brand-mark inline-flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-600 text-sm font-extrabold text-white">
+            DN
+          </span>
+          <span>
+            <span class="block text-sm font-bold leading-tight text-slate-900">drg. Novalia</span>
+            <span class="block text-[11px] leading-tight text-slate-500">Dental Care</span>
+          </span>
+        </a>
+        <button
+          id="menu-button"
+          class="inline-flex items-center rounded-lg p-2 text-slate-600 transition hover:bg-slate-100 md:hidden"
+          aria-label="Buka menu"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        <ul id="menu" class="hidden gap-8 text-sm font-medium text-slate-600 md:flex">
+          <li><a href="#layanan" class="transition hover:text-cyan-600">Layanan</a></li>
+          <li><a href="#tentang" class="transition hover:text-cyan-600">Tentang</a></li>
+          <li><a href="#jadwal" class="transition hover:text-cyan-600">Jadwal</a></li>
+          <li><a href="#kontak" class="transition hover:text-cyan-600">Kontak</a></li>
+        </ul>
+      </nav>
+      <ul id="menu-mobile" class="hidden border-t border-slate-100 bg-white px-6 py-4 md:hidden">
+        <li><a href="#layanan" class="block py-2 text-slate-600">Layanan</a></li>
+        <li><a href="#tentang" class="block py-2 text-slate-600">Tentang</a></li>
+        <li><a href="#jadwal" class="block py-2 text-slate-600">Jadwal</a></li>
+        <li><a href="#kontak" class="block py-2 text-slate-600">Kontak</a></li>
+      </ul>
+    </header>
+
+    <main id="home" class="pb-24 md:pb-0">
+      <section class="relative overflow-hidden">
+        <div class="absolute inset-0 -z-10 bg-gradient-to-br from-cyan-100 via-white to-sky-50"></div>
+        <div class="blob blob-one"></div>
+        <div class="blob blob-two"></div>
+        <div class="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-2 md:items-center md:py-24">
+          <div class="reveal">
+            <span class="inline-flex rounded-full bg-cyan-100 px-4 py-1 text-sm font-medium text-cyan-700">
+              Praktek Mandiri Dokter Gigi
+            </span>
+            <h1 class="mt-5 text-4xl font-extrabold leading-tight text-slate-900 md:text-5xl">
+              Senyum Sehat dan Percaya Diri Bersama
+              <span class="text-cyan-600">drg. Novalia Syafira Arfianti</span>
+            </h1>
+            <p class="mt-5 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
+              Perawatan gigi modern yang nyaman, ramah, dan terukur untuk seluruh keluarga.
+            </p>
+            <div class="mt-6 grid max-w-xl gap-3 sm:grid-cols-2">
+              <div class="rounded-xl border border-cyan-100 bg-white/80 p-3">
+                <p class="text-xs font-semibold uppercase tracking-wide text-cyan-700">Google Rating</p>
+                <p class="mt-1 text-sm font-bold text-slate-900">5.0 (2 ulasan)</p>
+              </div>
+              <div class="rounded-xl border border-cyan-100 bg-white/80 p-3">
+                <p class="text-xs font-semibold uppercase tracking-wide text-cyan-700">Jam Praktek</p>
+                <p class="mt-1 text-sm font-bold text-slate-900">Senin-Jumat, 15.00-20.00</p>
+              </div>
+            </div>
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a
+                href="https://wa.me/6280000000000?text=Halo%20dokter%2C%20saya%20ingin%20konsultasi%20dan%20buat%20janji."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="rounded-xl bg-cyan-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-cyan-700 hover:shadow-lg hover:shadow-cyan-200"
+              >
+                Buat Janji
+              </a>
+              <a
+                href="#layanan"
+                class="rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-cyan-600 hover:text-cyan-600"
+              >
+                Lihat Layanan
+              </a>
+            </div>
+          </div>
+          <div class="reveal">
+            <div class="float-soft overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-xl shadow-slate-200/60">
+              <svg viewBox="0 0 800 320" class="h-60 w-full" role="img" aria-label="Ilustrasi dokter gigi memeriksa pasien">
+                <rect width="800" height="320" fill="#e0f2fe"></rect>
+                <circle cx="680" cy="70" r="42" fill="#22d3ee" opacity="0.45"></circle>
+                <rect x="40" y="210" width="720" height="80" rx="18" fill="#bae6fd"></rect>
+                <rect x="120" y="155" width="220" height="75" rx="18" fill="#ffffff"></rect>
+                <circle cx="170" cy="95" r="42" fill="#0f172a"></circle>
+                <rect x="138" y="136" width="64" height="70" rx="16" fill="#0891b2"></rect>
+                <rect x="225" y="128" width="76" height="90" rx="20" fill="#164e63"></rect>
+                <circle cx="492" cy="118" r="44" fill="#1e293b"></circle>
+                <rect x="452" y="155" width="82" height="88" rx="20" fill="#f8fafc"></rect>
+                <rect x="490" y="180" width="110" height="24" rx="12" fill="#22d3ee"></rect>
+                <rect x="540" y="82" width="18" height="90" rx="9" fill="#0ea5e9"></rect>
+                <rect x="550" y="92" width="48" height="16" rx="8" fill="#0ea5e9"></rect>
+              </svg>
+              <div class="p-8">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="h-3 w-3 rounded-full bg-cyan-500"></div>
+                  <p class="text-sm font-medium text-slate-500">Klinik Nyaman & Higienis</p>
+                </div>
+                <div class="mb-5 rounded-2xl border border-cyan-100 bg-cyan-50 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wide text-cyan-700">Butuh layanan cepat?</p>
+                  <p class="mt-1 text-sm text-slate-700">Hubungi langsung: <span class="font-bold text-slate-900">(+62) 851 7509 6569</span></p>
+                </div>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div class="rounded-2xl bg-slate-50 p-4">
+                    <p class="text-2xl font-bold text-slate-900"><span class="count-up" data-target="8" data-suffix="+">0</span></p>
+                    <p class="text-sm text-slate-600">Tahun Pengalaman</p>
+                  </div>
+                  <div class="rounded-2xl bg-slate-50 p-4">
+                    <p class="text-2xl font-bold text-slate-900"><span class="count-up" data-target="1500" data-format="dot" data-suffix="+">0</span></p>
+                    <p class="text-sm text-slate-600">Pasien Ditangani</p>
+                  </div>
+                  <div class="rounded-2xl bg-slate-50 p-4">
+                    <p class="text-2xl font-bold text-slate-900"><span class="count-up" data-target="100" data-suffix="%">0</span></p>
+                    <p class="text-sm text-slate-600">Sterilisasi Alat</p>
+                  </div>
+                  <div class="rounded-2xl bg-slate-50 p-4">
+                    <p class="text-2xl font-bold text-slate-900"><span class="count-up" data-target="6">0</span></p>
+                    <p class="text-sm text-slate-600">Hari Pelayanan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="layanan" class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+        <div class="reveal mb-10 text-center">
+          <h2 class="text-3xl font-bold text-slate-900">Layanan Utama</h2>
+          <p class="mx-auto mt-3 max-w-2xl text-slate-600">
+            Solusi lengkap untuk kesehatan dan estetika gigi dengan tindakan yang aman dan terukur.
+          </p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-3">
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <div class="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-full bg-cyan-100 text-cyan-700">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M8 7h8m-8 4h5m-7 8h10a2 2 0 002-2V7.5a1.5 1.5 0 00-.44-1.06l-2-2A1.5 1.5 0 0014.5 4h-7A2.5 2.5 0 005 6.5V17a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-900">Scaling & Polishing</h3>
+            <p class="mt-3 text-sm leading-relaxed text-slate-600">
+              Membersihkan karang gigi dan noda untuk menjaga kesehatan gusi serta kesegaran mulut.
+            </p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <div class="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-full bg-cyan-100 text-cyan-700">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M7 13l2.5 2.5L17 8m2 4a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-900">Tambal Gigi Estetik</h3>
+            <p class="mt-3 text-sm leading-relaxed text-slate-600">
+              Perbaikan gigi berlubang menggunakan bahan sewarna gigi agar hasil terlihat natural.
+            </p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <div class="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-full bg-cyan-100 text-cyan-700">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12h6m-6 4h6M8 4h8a2 2 0 012 2v12a2 2 0 01-2 2H8a2 2 0 01-2-2V6a2 2 0 012-2z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-slate-900">Konsultasi Ortodonti</h3>
+            <p class="mt-3 text-sm leading-relaxed text-slate-600">
+              Pemeriksaan susunan gigi dan rahang untuk rencana perawatan behel yang tepat.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-6 pb-8 pt-2 md:pb-12">
+        <div class="reveal mb-8 text-center">
+          <h2 class="text-3xl font-bold text-slate-900">Suasana Klinik & Perawatan</h2>
+          <p class="mx-auto mt-3 max-w-2xl text-slate-600">
+            Gambaran ruang dan proses perawatan yang bersih, modern, dan nyaman untuk pasien.
+          </p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-3">
+          <article class="reveal image-card overflow-hidden rounded-2xl bg-white shadow-md">
+            <svg viewBox="0 0 600 320" class="h-64 w-full" role="img" aria-label="Ilustrasi ruang tindakan modern">
+              <rect width="600" height="320" fill="#e0f2fe"></rect>
+              <rect x="70" y="190" width="320" height="70" rx="16" fill="#ffffff"></rect>
+              <rect x="110" y="145" width="210" height="55" rx="14" fill="#67e8f9"></rect>
+              <rect x="390" y="80" width="90" height="170" rx="14" fill="#0f172a"></rect>
+              <circle cx="436" cy="116" r="20" fill="#22d3ee"></circle>
+              <rect x="95" y="90" width="90" height="14" rx="7" fill="#0891b2"></rect>
+            </svg>
+            <div class="p-4">
+              <p class="text-sm font-semibold text-slate-800">Ruang Tindakan Modern</p>
+            </div>
+          </article>
+          <article class="reveal image-card overflow-hidden rounded-2xl bg-white shadow-md">
+            <svg viewBox="0 0 600 320" class="h-64 w-full" role="img" aria-label="Ilustrasi pemeriksaan pasien">
+              <rect width="600" height="320" fill="#ecfeff"></rect>
+              <circle cx="180" cy="110" r="38" fill="#0f172a"></circle>
+              <rect x="146" y="145" width="68" height="90" rx="18" fill="#0ea5e9"></rect>
+              <circle cx="390" cy="118" r="38" fill="#1e293b"></circle>
+              <rect x="355" y="150" width="72" height="88" rx="18" fill="#f8fafc"></rect>
+              <rect x="230" y="195" width="150" height="20" rx="10" fill="#22d3ee"></rect>
+              <rect x="60" y="250" width="480" height="40" rx="16" fill="#bae6fd"></rect>
+            </svg>
+            <div class="p-4">
+              <p class="text-sm font-semibold text-slate-800">Pemeriksaan Detail</p>
+            </div>
+          </article>
+          <article class="reveal image-card overflow-hidden rounded-2xl bg-white shadow-md">
+            <svg viewBox="0 0 600 320" class="h-64 w-full" role="img" aria-label="Ilustrasi alat steril">
+              <rect width="600" height="320" fill="#f0f9ff"></rect>
+              <rect x="80" y="90" width="440" height="170" rx="22" fill="#ffffff"></rect>
+              <rect x="120" y="130" width="90" height="18" rx="9" fill="#38bdf8"></rect>
+              <rect x="120" y="162" width="130" height="18" rx="9" fill="#67e8f9"></rect>
+              <rect x="120" y="194" width="110" height="18" rx="9" fill="#bae6fd"></rect>
+              <circle cx="420" cy="165" r="46" fill="#22d3ee" opacity="0.7"></circle>
+              <rect x="396" y="138" width="48" height="54" rx="10" fill="#0f172a"></rect>
+            </svg>
+            <div class="p-4">
+              <p class="text-sm font-semibold text-slate-800">Alat Steril & Aman</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="tentang" class="bg-white py-16 md:py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="reveal mb-8 text-center md:mb-10">
+            <h2 class="text-3xl font-bold text-slate-900">Tentang Dokter</h2>
+            <p class="mx-auto mt-3 max-w-2xl text-slate-600">
+              Perawatan berbasis empati, komunikasi yang jelas, dan tindakan yang terukur.
+            </p>
+          </div>
+
+          <div class="grid gap-6 md:grid-cols-3">
+            <article class="reveal overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-md md:col-span-1">
+              <div class="bg-gradient-to-br from-cyan-100 to-sky-100 p-6">
+                <svg viewBox="0 0 340 220" class="h-40 w-full" role="img" aria-label="Ilustrasi profil dokter gigi">
+                  <rect x="20" y="160" width="300" height="36" rx="14" fill="#a5f3fc"></rect>
+                  <circle cx="108" cy="82" r="34" fill="#0f172a"></circle>
+                  <rect x="78" y="118" width="60" height="76" rx="16" fill="#0891b2"></rect>
+                  <circle cx="230" cy="84" r="30" fill="#1e293b"></circle>
+                  <rect x="204" y="116" width="52" height="72" rx="14" fill="#f8fafc"></rect>
+                  <rect x="150" y="124" width="56" height="12" rx="6" fill="#22d3ee"></rect>
+                </svg>
+              </div>
+              <div class="p-6">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-700">drg. Novalia</p>
+                <h3 class="mt-2 text-lg font-bold text-slate-900">Pendekatan Personal</h3>
+                <p class="mt-2 text-sm text-slate-600">Konsultasi dilakukan dengan bahasa yang mudah dipahami agar pasien nyaman.</p>
+              </div>
+            </article>
+
+            <article class="reveal rounded-3xl border border-slate-100 bg-white p-7 shadow-md md:col-span-2 md:p-8">
+              <h3 class="text-xl font-bold text-slate-900">Komitmen Pelayanan</h3>
+              <p class="mt-3 leading-relaxed text-slate-600">
+                drg. Novalia Syafira Arfianti berkomitmen memberikan pelayanan edukatif dan empatik, dengan fokus pada kualitas tindakan,
+                kebersihan alat, serta komunikasi yang transparan untuk hasil perawatan optimal.
+              </p>
+
+              <div class="mt-6 grid gap-3 sm:grid-cols-2">
+                <div class="rounded-xl bg-slate-50 p-4 text-sm font-medium text-slate-700">✅ Komunikasi jelas sebelum tindakan</div>
+                <div class="rounded-xl bg-slate-50 p-4 text-sm font-medium text-slate-700">✅ Pendekatan ramah untuk pasien anak/dewasa</div>
+                <div class="rounded-xl bg-slate-50 p-4 text-sm font-medium text-slate-700">✅ Edukasi perawatan di rumah</div>
+                <div class="rounded-xl bg-slate-50 p-4 text-sm font-medium text-slate-700">✅ Standar sterilitas tinggi</div>
+              </div>
+
+              <div class="mt-6 grid gap-3 sm:grid-cols-3">
+                <div class="rounded-2xl border border-cyan-100 bg-cyan-50 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wide text-cyan-700">Fokus Utama</p>
+                  <p class="mt-1 text-sm font-semibold text-slate-800">Kenyamanan Pasien</p>
+                </div>
+                <div class="rounded-2xl border border-cyan-100 bg-cyan-50 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wide text-cyan-700">Metode</p>
+                  <p class="mt-1 text-sm font-semibold text-slate-800">Tindakan Presisi</p>
+                </div>
+                <div class="rounded-2xl border border-cyan-100 bg-cyan-50 p-4">
+                  <p class="text-xs font-semibold uppercase tracking-wide text-cyan-700">Nilai</p>
+                  <p class="mt-1 text-sm font-semibold text-slate-800">Ramah & Transparan</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+        <div class="reveal mb-10 text-center">
+          <h2 class="text-3xl font-bold text-slate-900">Kenapa Memilih Kami</h2>
+          <p class="mx-auto mt-3 max-w-2xl text-slate-600">
+            Fokus pada diagnosis tepat, kenyamanan pasien, dan hasil perawatan jangka panjang.
+          </p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-3">
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm card-soft">
+            <p class="text-lg">🩺</p>
+            <h3 class="mt-3 text-base font-semibold text-slate-900">Dokter Berpengalaman</h3>
+            <p class="mt-2 text-sm text-slate-600">Penanganan detail dengan komunikasi yang jelas di setiap tindakan.</p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm card-soft">
+            <p class="text-lg">🧼</p>
+            <h3 class="mt-3 text-base font-semibold text-slate-900">Sterilisasi Ketat</h3>
+            <p class="mt-2 text-sm text-slate-600">Alat dan ruang tindakan terjaga kebersihannya untuk keamanan pasien.</p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm card-soft">
+            <p class="text-lg">💳</p>
+            <h3 class="mt-3 text-base font-semibold text-slate-900">Pembayaran Fleksibel</h3>
+            <p class="mt-2 text-sm text-slate-600">Mendukung opsi pembayaran praktis sesuai kebutuhan pasien.</p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm card-soft">
+            <p class="text-lg">🚑</p>
+            <h3 class="mt-3 text-base font-semibold text-slate-900">Respons Cepat</h3>
+            <p class="mt-2 text-sm text-slate-600">Tersedia konsultasi awal via WhatsApp untuk kondisi darurat ringan.</p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm card-soft">
+            <p class="text-lg">⭐</p>
+            <h3 class="mt-3 text-base font-semibold text-slate-900">Ulasan Positif Pasien</h3>
+            <p class="mt-2 text-sm text-slate-600">Pendekatan ramah membuat pasien merasa lebih tenang saat perawatan.</p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-100 bg-white p-6 shadow-sm card-soft">
+            <p class="text-lg">🦷</p>
+            <h3 class="mt-3 text-base font-semibold text-slate-900">Teknologi Terkini</h3>
+            <p class="mt-2 text-sm text-slate-600">Pendekatan modern untuk diagnosis dan tindakan yang lebih akurat.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="jadwal" class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+        <div class="grid gap-6 md:grid-cols-3">
+          <div class="reveal overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm md:col-span-2">
+            <div class="grid md:grid-cols-2">
+              <svg viewBox="0 0 520 360" class="h-64 w-full md:h-full" role="img" aria-label="Ilustrasi ruang tunggu klinik">
+                <rect width="520" height="360" fill="#e0f2fe"></rect>
+                <rect x="62" y="220" width="396" height="78" rx="18" fill="#ffffff"></rect>
+                <rect x="90" y="178" width="132" height="50" rx="14" fill="#67e8f9"></rect>
+                <rect x="245" y="178" width="132" height="50" rx="14" fill="#38bdf8"></rect>
+                <rect x="400" y="120" width="40" height="178" rx="12" fill="#0f172a"></rect>
+                <circle cx="128" cy="110" r="26" fill="#0ea5e9"></circle>
+                <circle cx="220" cy="110" r="26" fill="#22d3ee"></circle>
+              </svg>
+              <div class="p-8 md:p-10">
+                <h2 class="text-3xl font-bold text-slate-900">Jadwal Praktek</h2>
+                <div class="mt-6 space-y-3 text-sm text-slate-700">
+                  <p class="flex items-center justify-between rounded-xl bg-slate-50 p-4"><span class="font-semibold">Senin - Jumat</span><span>09.00 - 20.00 WIB</span></p>
+                  <p class="flex items-center justify-between rounded-xl bg-slate-50 p-4"><span class="font-semibold">Sabtu</span><span>09.00 - 15.00 WIB</span></p>
+                  <p class="flex items-center justify-between rounded-xl bg-slate-50 p-4"><span class="font-semibold">Minggu</span><span>Libur</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside class="reveal rounded-3xl bg-slate-900 p-6 text-white shadow-lg">
+            <p class="text-xs uppercase tracking-[0.2em] text-cyan-300">Booking Cepat</p>
+            <h3 class="mt-2 text-xl font-semibold">Butuh Jadwal Fleksibel?</h3>
+            <p class="mt-3 text-sm text-slate-300">Konsultasi via WhatsApp untuk konfirmasi slot sesuai ketersediaan dokter.</p>
+            <a
+              href="https://wa.me/6280000000000?text=Halo%20dokter%2C%20saya%20ingin%20menanyakan%20jadwal%20praktek."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-5 inline-flex items-center rounded-xl bg-cyan-500 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-cyan-400"
+            >
+              Cek Ketersediaan Jadwal
+            </a>
+            <div class="mt-6 rounded-2xl border border-slate-700 p-4 text-sm text-slate-300">
+              <p class="font-semibold text-slate-100">Kontak Cepat:</p>
+              <p class="mt-1">(+62) 851 7509 6569</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak" class="bg-slate-900 py-16 text-white md:py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="reveal grid gap-8 md:grid-cols-2 md:items-center">
+            <div>
+              <h2 class="text-3xl font-bold">Siap Menjadwalkan Kunjungan?</h2>
+              <p class="mt-4 text-slate-300">
+                Hubungi praktek drg. Novalia Syafira Arfianti untuk konsultasi dan reservasi jadwal.
+              </p>
+            </div>
+            <div class="space-y-3 rounded-2xl border border-slate-700 bg-slate-800 p-6 text-sm">
+              <p><span class="font-semibold text-cyan-300">WhatsApp:</span> 08xx-xxxx-xxxx</p>
+              <p><span class="font-semibold text-cyan-300">Alamat:</span> Jl. Contoh Sehat No. 12, Kota Anda</p>
+              <p><span class="font-semibold text-cyan-300">Instagram:</span> @drg.novalia</p>
+              <div class="mt-2 flex flex-wrap gap-3">
+                <a
+                  href="https://wa.me/6280000000000?text=Halo%20dokter%2C%20saya%20ingin%20konsultasi."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-block rounded-lg bg-cyan-600 px-4 py-2 font-semibold text-white transition hover:bg-cyan-500"
+                >
+                  Chat WhatsApp
+                </a>
+                <a
+                  href="#home"
+                  class="inline-block rounded-lg border border-slate-600 px-4 py-2 font-semibold text-slate-100 transition hover:border-cyan-400 hover:text-cyan-300"
+                >
+                  Kembali ke Atas
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="lokasi" class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+        <div class="reveal mb-8">
+          <h2 class="text-3xl font-bold text-slate-900">Lokasi Praktek</h2>
+          <p class="mt-3 text-slate-600">
+            Temukan lokasi praktek drg. Novalia Syafira Arfianti melalui Google Maps berikut.
+          </p>
+        </div>
+        <div class="reveal overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+          <iframe
+            title="Lokasi Praktek drg. Novalia Syafira Arfianti"
+            src="https://www.google.com/maps?q=Jakarta%20Indonesia&z=14&output=embed"
+            class="h-80 w-full md:h-[420px]"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="reveal mt-4 flex flex-wrap gap-3">
+          <a
+            href="https://maps.google.com/?q=Jakarta+Indonesia"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="rounded-xl bg-cyan-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-cyan-700"
+          >
+            Buka di Google Maps
+          </a>
+          <a
+            href="https://wa.me/6280000000000?text=Halo%20dokter%2C%20saya%20ingin%20konfirmasi%20lokasi%20praktek."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="rounded-xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-cyan-600 hover:text-cyan-600"
+          >
+            Konfirmasi Lokasi via WhatsApp
+          </a>
+        </div>
+      </section>
+
+      <section class="bg-white py-16 md:py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="reveal mb-8 text-center">
+            <h2 class="text-3xl font-bold text-slate-900">Testimoni Pasien</h2>
+            <p class="mx-auto mt-3 max-w-2xl text-slate-600">
+              Cerita singkat dari pasien yang sudah menjalani perawatan.
+            </p>
+          </div>
+          <div class="reveal overflow-hidden rounded-3xl border border-slate-200 bg-slate-50">
+            <div id="testimonial-track" class="flex transition-transform duration-500 ease-out">
+              <article class="w-full shrink-0 p-8 md:p-10">
+                <p class="text-base leading-relaxed text-slate-700 md:text-lg">
+                  "Pelayanannya ramah sekali. Dokternya menjelaskan tindakan dengan detail jadi saya lebih tenang sebelum scaling."
+                </p>
+                <p class="mt-4 text-sm font-semibold text-slate-900">Nabila A. - Pasien Scaling</p>
+              </article>
+              <article class="w-full shrink-0 p-8 md:p-10">
+                <p class="text-base leading-relaxed text-slate-700 md:text-lg">
+                  "Proses tambal gigi nyaman, hasilnya rapi dan warna gigi terlihat natural. Tempatnya juga bersih dan modern."
+                </p>
+                <p class="mt-4 text-sm font-semibold text-slate-900">Reza F. - Pasien Tambal Gigi</p>
+              </article>
+              <article class="w-full shrink-0 p-8 md:p-10">
+                <p class="text-base leading-relaxed text-slate-700 md:text-lg">
+                  "Respon WhatsApp cepat dan jadwalnya fleksibel. Sangat membantu untuk saya yang hanya bisa periksa sore hari."
+                </p>
+                <p class="mt-4 text-sm font-semibold text-slate-900">Maya R. - Pasien Konsultasi</p>
+              </article>
+            </div>
+          </div>
+          <div id="testimonial-dots" class="mt-5 flex justify-center gap-2">
+            <button class="dot-active h-2.5 w-8 rounded-full bg-cyan-600" aria-label="Testimoni 1"></button>
+            <button class="h-2.5 w-2.5 rounded-full bg-slate-300" aria-label="Testimoni 2"></button>
+            <button class="h-2.5 w-2.5 rounded-full bg-slate-300" aria-label="Testimoni 3"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-6 py-16 md:py-20">
+        <div class="reveal mb-8 text-center">
+          <h2 class="text-3xl font-bold text-slate-900">Pertanyaan Umum</h2>
+          <p class="mx-auto mt-3 max-w-2xl text-slate-600">
+            Informasi singkat sebelum kunjungan agar proses perawatan lebih nyaman.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <details class="reveal group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <summary class="cursor-pointer list-none font-semibold text-slate-900">
+              Apakah harus reservasi sebelum datang?
+            </summary>
+            <p class="mt-3 text-sm leading-relaxed text-slate-600">
+              Disarankan reservasi terlebih dahulu melalui WhatsApp agar Anda mendapat slot waktu yang sesuai dan waktu tunggu lebih singkat.
+            </p>
+          </details>
+          <details class="reveal group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <summary class="cursor-pointer list-none font-semibold text-slate-900">
+              Apakah melayani pasien anak?
+            </summary>
+            <p class="mt-3 text-sm leading-relaxed text-slate-600">
+              Ya, praktek melayani pasien anak hingga dewasa dengan pendekatan komunikasi yang nyaman dan edukatif.
+            </p>
+          </details>
+          <details class="reveal group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <summary class="cursor-pointer list-none font-semibold text-slate-900">
+              Metode pembayaran apa saja yang tersedia?
+            </summary>
+            <p class="mt-3 text-sm leading-relaxed text-slate-600">
+              Pembayaran dapat dilakukan melalui tunai, transfer, atau e-wallet sesuai ketersediaan di lokasi praktek.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-100 bg-white py-6">
+      <p class="text-center text-sm text-slate-500">
+        © <span id="year"></span> Praktek Mandiri drg. Novalia Syafira Arfianti
+      </p>
+    </footer>
+
+    <a
+      href="https://wa.me/6280000000000?text=Halo%20dokter%2C%20saya%20ingin%20buat%20janji."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat WhatsApp"
+      class="wa-float fixed bottom-5 right-5 z-50 hidden h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-lg shadow-emerald-200 transition hover:scale-105 hover:bg-emerald-600 md:inline-flex"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="h-7 w-7 fill-current" aria-hidden="true">
+        <path d="M19.11 17.2c-.27-.14-1.58-.78-1.82-.87-.24-.09-.42-.14-.6.14-.18.27-.69.87-.84 1.05-.16.18-.31.2-.58.07-.27-.14-1.12-.41-2.13-1.3-.79-.7-1.33-1.57-1.48-1.84-.16-.27-.02-.42.12-.55.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.05-.34-.02-.47-.07-.14-.6-1.45-.82-1.99-.21-.5-.43-.43-.6-.44l-.51-.01c-.18 0-.47.07-.72.34-.25.27-.95.93-.95 2.28s.97 2.66 1.11 2.84c.14.18 1.9 2.9 4.61 4.07.64.28 1.15.45 1.55.57.65.21 1.25.18 1.73.11.53-.08 1.58-.65 1.8-1.27.22-.62.22-1.14.16-1.27-.07-.13-.25-.2-.52-.34z"></path>
+        <path d="M16.01 3.2c-7.07 0-12.82 5.75-12.82 12.82 0 2.25.59 4.46 1.7 6.4L3.2 28.8l6.54-1.67a12.74 12.74 0 0 0 6.27 1.64h.01c7.07 0 12.82-5.75 12.82-12.82S23.08 3.2 16.01 3.2zm0 23.35h-.01a10.5 10.5 0 0 1-5.35-1.47l-.38-.23-3.88.99 1.04-3.78-.25-.39a10.52 10.52 0 1 1 8.83 4.88z"></path>
+      </svg>
+    </a>
+
+    <div class="mobile-cta fixed bottom-0 left-0 right-0 z-40 border-t border-slate-200 bg-white/95 p-3 backdrop-blur md:hidden">
+      <a
+        href="https://wa.me/6280000000000?text=Halo%20dokter%2C%20saya%20ingin%20book%20appointment."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="block rounded-xl bg-cyan-600 px-4 py-3 text-center text-sm font-bold text-white"
+      >
+        Book Appointment via WhatsApp
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
